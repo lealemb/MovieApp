@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { MovieContext } from "./MovieContext";
-import './Nav.css';  // Assuming you have a CSS file
+import './Nav.css';  
 
 const Nav = () => {
   const [movies] = useContext(MovieContext);
